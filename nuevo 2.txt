@@ -1,0 +1,26 @@
+https://dev.to/hwlkdev/hosting-free-strapi-cms-on-railway-building-personal-blog-website-part-1-1epe
+
+Railway
+Cloudinary
+// Configuration 
+cloudinary.config({
+  cloud_name: "dmkf9dn5h",
+  api_key: "753241679649449",
+  api_secret: "c6ObKf4hiGbF4-I4NmWs1YWsKBs"
+});
+
+3jy0Uu+uxBbDJKIhXvCjNbR8bMnou4Js+7ipncBQWgE=
+tlORUFhdoyDz0I7c0WSsWjOT72cai0a/NzrXMyW6+Pg=
+SY9tZ52OBQ1ROkXyGxl0qxXGIaEMjvsGNV/U34Mir90=
+yh3Bk0aYJSDhbdsqajU8OxTnfOgewnwXdA91bttVpLg=
+
+config/env/production tiene la db postgres
+en local trabaja con sqlite (mucho mas simple)
+
+En prod no podemos crear/modificar data-types, content-types, etc
+Las imagenes tenemos 25GB en cloudinary (A mi nombre, hay que pasar todo a el mail de clubunion)
+
+Para correr en local:
+crear file .env con las keys de railway
+yarn install
+yarn develop
