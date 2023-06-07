@@ -2,7 +2,7 @@
   "name": "strapi",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Strapi para Club Union de Malvinas",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,16 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.10.7",
-    "@strapi/plugin-i18n": "4.10.7",
-    "@strapi/plugin-users-permissions": "4.10.7",
-    "@strapi/provider-upload-cloudinary": "4.10.7",
-    "@strapi/strapi": "4.10.7",
+    "@strapi/plugin-graphql": "^4.11.0",
+    "@strapi/plugin-i18n": "4.11.0",
+    "@strapi/plugin-users-permissions": "4.11.0",
+    "@strapi/provider-upload-cloudinary": "4.11.0",
+    "@strapi/strapi": "4.11.0",
     "better-sqlite3": "^8.4.0",
     "pg": "8.8.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Matias Paglia"
   },
   "strapi": {
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
