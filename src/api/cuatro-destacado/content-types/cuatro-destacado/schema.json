@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "cuatro_destacados",
+  "info": {
+    "singularName": "cuatro-destacado",
+    "pluralName": "cuatro-destacados",
+    "displayName": "cuatro_destacado",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link_destacado_1": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::link-destacado.link-destacado"
+    },
+    "link_destacado_2": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::link-destacado.link-destacado"
+    },
+    "link_destacado_3": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::link-destacado.link-destacado"
+    },
+    "link_destacado_4": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::link-destacado.link-destacado"
+    }
+  }
+}

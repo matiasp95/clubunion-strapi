@@ -13,15 +13,17 @@
   "pluginOptions": {},
   "attributes": {
     "titulo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "contenido": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "imagenes": {
       "type": "media",
       "multiple": true,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -36,6 +38,10 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
+    },
+    "resumen": {
+      "type": "text",
+      "required": true
     }
   }
 }
