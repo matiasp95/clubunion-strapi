@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "carousels",
+  "info": {
+    "singularName": "carousel",
+    "pluralName": "carousels",
+    "displayName": "carousel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "noticia_uno": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::noticia.noticia"
+    },
+    "noticia_dos": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::noticia.noticia"
+    },
+    "noticia_tres": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::noticia.noticia"
+    }
+  }
+}
